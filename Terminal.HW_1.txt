@@ -1,0 +1,50 @@
+ТГ - @ndreil
+
+1. pwd
+2. mkdir 
+3. cd 
+4. mkdir -p {folder1,folder2,folder3}
+5. cd c:/documents/git/
+6. touch app/{1.txt,2.txt,3.txt,1.json,2.json}
+7. mkdir -p {folder1,folder2,folder3}
+8. ls -la
+9. vim 1.txt
+10. i + текст
+11. :wq
+12. cd../
+13. mv dz2/{4.txt,5.txt} dz3
+14. cp dz2/{4.txt,5.txt} dz3
+15. find / -name "file.txt"
+16. tail -f имя | grep имя
+17. head -n7 1.txt
+18. tail -n4 1.txt
+19. less 1.txt
+20. date
+
+*Скрипт*
+
+#!/bin/bash
+
+echo "Зайти в папку"
+
+cd dz1
+
+
+
+mkdir -p {folder1,folder2,folder3}
+
+cd folder1
+
+touch {1.txt,2.txt,3.txt,4.json,5.json}
+
+mkdir -p {1,2,3}
+
+ls -la
+
+mv 1.txt 2.txt  1
+
+*Скрипт*
+
+Запрос
+curl "http://162.55.220.72:5005/get_method?name=AndreyKarpov&age=23"
+
